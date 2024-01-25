@@ -2,6 +2,8 @@ import 'dart:html';
 
 
 import 'package:flutter/material.dart';
+import 'package:nhom_11/Index-2.dart';
+import 'package:nhom_11/person_detail.dart';
 
 import 'Index-1.dart';
 
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Index(),
+        body: Detail(),
       ),
     );
   }
